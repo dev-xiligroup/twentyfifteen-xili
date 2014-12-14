@@ -26,6 +26,8 @@ The plugin is available here : http://wordpress.org/plugins/xili-language/
 
 After installation or updating, it is fully recommanded to refresh permalinks (and empty the browser cache).
 
+After decompressing .zip from Github, do not forget to erase suffix '-master' to recover a folder named 'twentyfifteen-xili' !
+
 Before updating don't forgot to keep a backup of the languages files (.mo)
 
 2014-12-14
