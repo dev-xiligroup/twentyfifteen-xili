@@ -1,10 +1,10 @@
 /*
 Theme Name: Twenty Fifteen xili
-Theme URI: http://2014.extend.xiligroup.org
+Theme URI: http://2015.extend.xiligroup.org
 Author: mswppi, Dev.xiligroup team
 Author URI: http://dev.xiligroup.com/
 Description: Need XL 2.15.3 - Multilingual child theme of the default theme 2015. <a href="http://theme.wordpress.com/themes/twentyfifteen/">Twenty Fifteen</a>Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
-Version: 0.1
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
@@ -18,4 +18,8 @@ Versioning follow the parent version.
 
 @import url('../twentyfifteen/style.css'); /* the most important line of the style.css of a child from his parent twentyfifteen */
 
-/* - first version for 4.1-beta1 */
+li.xl-list div.menu-item-description {margin-left:-30px;}
+
+.site-info {font-size:1.4rem;}
+
+/* - first version for 4.1 RC1 */
