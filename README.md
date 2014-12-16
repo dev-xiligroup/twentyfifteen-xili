@@ -8,13 +8,13 @@ The child theme '-xili' here is made to incorporate multilingual features et fix
 
 In functions.php file, some examples of commented source are shipped to be used in another themes...
 
-Recent versions are compatible with tested WordPress 4.1-rc.
+Recent versions are compatible with tested WordPress 4.1-RC1.
 
 Online demo website is here: http://2015.extend.xiligroup.org
 
 *Prerequisites* :
 
-WordPress 4.1-rc and updated twentyfifteen
+WordPress 4.1-RC1+ and updated twentyfifteen
 
 -- a child theme needs his parent theme --
 
@@ -28,6 +28,6 @@ After installation or updating, it is fully recommanded to refresh permalinks (a
 
 After decompressing .zip from Github, do not forget to erase suffix '-master' to recover a folder named 'twentyfifteen-xili' !
 
-Before updating don't forgot to keep a backup of the languages files (.mo)
+Before updating don't forgot to keep a backup of the YOUR languages files (.mo)
 
-2014-12-14
+2014-12-16
