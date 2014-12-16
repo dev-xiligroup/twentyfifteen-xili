@@ -383,6 +383,33 @@ function is_xili_adjacent_filterable() {
 	return true;
 }
 
+/**
+ * define when search form is completed by radio buttons to sub-select language when searching
+ *
+ */
+function special_head() {
+	if ( class_exists('xili_language') ) {	// if temporary disabled
+		// to change search form of widget
+		// if ( is_front_page() || is_category() || is_search() )
+		if ( is_search() || is_404() ) {
+			add_filter('get_search_form', 'my_langs_in_search_form_2015', 10, 1); // here below
+		}
+	}
+}
+add_action( 'wp_head', 'special_head', 11) ;
+
+/**
+ * add search other languages in form - see functions.php when fired
+ *
+ */
+function my_langs_in_search_form_2015 ( $the_form ) {
+
+	$form = str_replace ( '</form>', '', $the_form ) . '<span class="xili-s-radio">' . xiliml_langinsearchform ( $before='<span class="radio-lang">', $after='</span>', false) . '</span>';
+	$form .= '</form>';
+	return $form ;
+}
+
+
 // new filter for vertical nav menu description
 // xl_nav_menu_page_attr_title
 // xl_nav_menu_page_description
