@@ -1,6 +1,7 @@
 <?php
 // 
 // dev.xiligroup.com - msc - 2014-11-16 - first test with 2015 0.1
+// dev.xiligroup.com - msc - 2014-12-16 - test with 2015 1.0 - WP 4.1-RC1
 
 
 define( 'TWENTYFIFTEEN_XILI_VER', '1.0'); // as parent style.css
@@ -136,7 +137,7 @@ function twentyfifteen_xilidev_setup () {
 		add_action( 'admin_notices', $c = create_function( '', 'echo "' . addcslashes( $msg, '"' ) . '";' ) );
 
 	// end errors...
-
+	add_filter( 'pre_option_link_manager_enabled', '__return_true' ); // comment this line if you don't want links/bookmarks features
 
 }
 add_action( 'after_setup_theme', 'twentyfifteen_xilidev_setup', 11 );
