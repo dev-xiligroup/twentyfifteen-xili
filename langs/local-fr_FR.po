@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: theme = twentyfifteen-xili\n"
 "Report-Msgid-Bugs-To: contact@xiligroup.com\n"
-"POT-Creation-Date: 2014-12-16T16:23:12+00:00\n"
-"PO-Revision-Date: 2014-12-16T16:23:12+00:00\n"
+"POT-Creation-Date: 2014-12-18T14:57:05+00:00\n"
+"PO-Revision-Date: 2014-12-18T14:57:05+00:00\n"
 "Last-Translator: adminxili <team@xiligroup.org>\n"
 "Language-Team: xili-dictionary WP plugin and  <team@xiligroup.org>\n"
 "MIME-Version: 1.0\n"
@@ -59,71 +59,10 @@ msgstr ""
 msgid "F j, Y"
 msgstr "j F Y"
 
-#. [local] comment_form_labels name
-#, php-format
-msgid "Name"
-msgstr ""
-
-#. [local] comment_form_labels email
-#, php-format
-msgid "Email"
-msgstr "Courriel"
-
-#. [local] comment_form_labels website
-#, php-format
-msgid "Website"
-msgstr ""
-
-#. [local] comment_form_labels comment
-#, php-format
-msgctxt "noun"
-msgid "Comment"
-msgstr "Commentaire"
-
-#. [local] comment_form_labels youmustbe
-#, php-format
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Vous devez être <a href=\"%s\">connecté</a> pour ajouter un commentaire."
-
-#. [local] comment_form_labels loggedinas
-#, php-format
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
-msgstr "Connecté comme <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se déconnecter\">Déconnection ?</a>"
-
-#. [local] comment_form_labels emailnotpublished
-#, php-format
-msgid "Your email address will not be published."
-msgstr ""
-
-#. [local] comment_form_labels requiredmarked
-#, php-format
-msgid " Required fields are marked <span class=\"required\">*</span>"
-msgstr ""
-
 #. [local] comment_form_labels youmayuse
 #, php-format
 msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
 msgstr "N'utilisez que <abbr title=\"HyperText Markup Language\">HTML</abbr> ces balises et attributs :"
-
-#. [local] comment_form_labels leavereply
-#, php-format
-msgid "Leave a Reply"
-msgstr "Ajouter votre commentaire"
-
-#. [local] comment_form_labels replyto
-#, php-format
-msgid "Leave a Reply to %s"
-msgstr "Ajouter un commentaire à %s"
-
-#. [local] comment_form_labels cancelreply
-#, php-format
-msgid "Cancel reply"
-msgstr "Annuler le commentaire"
-
-#. [local] comment_form_labels postcomment
-#, php-format
-msgid "Post Comment"
-msgstr "Envoyer le commentaire"
 
 #. [local] language with ISO en_US
 #, php-format
@@ -197,7 +136,7 @@ msgstr ""
 #. [local] language list title post_selected
 #, php-format
 msgid "Posts selected in %s"
-msgstr ""
+msgstr "Articles sélectionnés en %s"
 
 #. [local] language list title current_post
 #, php-format
@@ -207,12 +146,12 @@ msgstr "L'article affiché en %s"
 #. [local] language list title latest_posts
 #, php-format
 msgid "Latest posts in %s"
-msgstr ""
+msgstr "Articles récents en %s"
 
 #. [local] language list title view_all_posts
 #, php-format
 msgid "View all posts in %s"
-msgstr ""
+msgstr "Voir tous les articles dans %s"
 
 #. [local] wp_locale Sunday
 #, php-format
@@ -497,11 +436,6 @@ msgstr "Articles récents"
 
 #. [local] (imported from mo) 
 #, php-format
-msgid "Reply"
-msgstr "Répondre"
-
-#. [local] (imported from mo) 
-#, php-format
 msgid "WP 41 test"
 msgstr "WordPress 4.1 en test"
 
@@ -515,3 +449,216 @@ msgstr "Articles les plus récents"
 msgctxt "menu_description fr_fr"
 msgid "for %s speaking people"
 msgstr "pour francophones"
+
+#. [local] comment_form_labels name
+#, php-format
+msgid "Name"
+msgstr "Nom"
+
+#. [local] comment_form_labels email
+#, php-format
+msgid "Email"
+msgstr "Courriel"
+
+#. [local] comment_form_labels website
+#, php-format
+msgid "Website"
+msgstr "Site internet"
+
+#. [local] comment_form_labels comment
+#, php-format
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#. [local] comment_form_labels youmustbe
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez être <a href=\"%s\">connecté</a> pour ajouter un commentaire."
+
+#. [local] comment_form_labels loggedinas
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Connecté comme <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se déconnecter\">Déconnection ?</a>"
+
+#. [local] comment_form_labels emailnotpublished
+#, php-format
+msgid "Your email address will not be published."
+msgstr "Votre adresse courriel ne sera pas publiée."
+
+#. [local] comment_form_labels youmayuse
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Vous pouvez utiliser ces balises <abbr title=\"HyperText Markup Language\">HTML</abbr> et attributs : %s"
+
+#. [local] comment_form_labels leavereply
+#, php-format
+msgid "Leave a Reply"
+msgstr "Ajouter votre commentaire"
+
+#. [local] comment_form_labels replyto
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Ajouter un commentaire à %s"
+
+#. [local] comment_form_labels cancelreply
+#, php-format
+msgid "Cancel reply"
+msgstr "Annuler le commentaire"
+
+#. [local] comment_form_labels postcomment
+#, php-format
+msgid "Post Comment"
+msgstr "Envoyer le commentaire"
+
+#. [local] 
+#: comment-template.php:29
+#, php-format
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#. [local] 
+#: comment-template.php:779  comment-template.php:1281
+#, php-format
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#. [local] 
+#: comment-template.php:781  comment-template.php:1279
+#, php-format
+msgid "No Comments"
+msgstr "Aucun commentaire"
+
+#. [local] 
+#: comment-template.php:783  comment-template.php:1280
+#, php-format
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#. [local] 
+#: comment-template.php:936
+#, php-format
+msgid "Trackback"
+msgstr ""
+
+#. [local] 
+#: comment-template.php:937
+#, php-format
+msgid "Pingback"
+msgstr ""
+
+#. [local] 
+#: comment-template.php:989
+#, php-format
+msgid "Use <code>get_trackback_url()</code> instead if you do not want the value echoed."
+msgstr ""
+
+#. [local] 
+#: comment-template.php:1282
+#, php-format
+msgid "Comments Off"
+msgstr "Commentaires clos"
+
+#. [local] 
+#: comment-template.php:1292
+#, php-format
+msgid "Enter your password to view comments."
+msgstr "Saisir le mot de passe pour voir les commentaires."
+
+#. [local] 
+#: comment-template.php:1327
+#, php-format
+msgid "Comment on %s"
+msgstr "Commentaire sur %s"
+
+#. [local] 
+#: comment-template.php:1363
+#, php-format
+msgid "Reply"
+msgstr "Répondre"
+
+#. [local] 
+#: comment-template.php:1364
+#, php-format
+msgid "Reply to %s"
+msgstr "Répondre à %s"
+
+#. [local] 
+#: comment-template.php:1365
+#, php-format
+msgid "Log in to Reply"
+msgstr "Se connecter pour répondre"
+
+#. [local] 
+#: comment-template.php:1475
+#, php-format
+msgid "Leave a Comment"
+msgstr "Saisir un commentaire"
+
+#. [local] 
+#: comment-template.php:1476
+#, php-format
+msgid "Log in to leave a Comment"
+msgstr "Se connecter pour ajouter un commentaire"
+
+#. [local] 
+#: comment-template.php:1542
+#, php-format
+msgid "Click here to cancel reply."
+msgstr "Cliquer ici pour annuler la réponse."
+
+#. [local] 
+#: comment-template.php:1859
+#, php-format
+msgid "Pingback:"
+msgstr "Pingback :"
+
+#. [local] 
+#: comment-template.php:1859  comment-template.php:1952
+#, php-format
+msgid "Edit"
+msgstr ""
+
+#. [local] 
+#: comment-template.php:1891
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">dit :</span>"
+
+#. [local] 
+#: comment-template.php:1894  comment-template.php:1956
+#, php-format
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#. [local] translators: 1: date, 2: time
+
+#: comment-template.php:1901
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. [local] 
+#: comment-template.php:1901
+#, php-format
+msgid "(Edit)"
+msgstr ""
+
+#. [local] 
+#: comment-template.php:1943
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit :</span>"
+
+#. [local] 
+#: comment-template.php:1949
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. [local] 
+#: comment-template.php:2190
+#, php-format
+msgid "Required fields are marked %s"
+msgstr "Les champs requis sont signalés par %s"

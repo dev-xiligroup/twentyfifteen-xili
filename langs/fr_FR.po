@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: theme = twentyfifteen-xili\n"
 "Report-Msgid-Bugs-To: contact@xiligroup.com\n"
-"POT-Creation-Date: 2014-12-16T15:07:24+00:00\n"
-"PO-Revision-Date: 2014-12-16T15:07:24+00:00\n"
+"POT-Creation-Date: 2014-12-18T14:57:22+00:00\n"
+"PO-Revision-Date: 2014-12-18T14:57:22+00:00\n"
 "Last-Translator: adminxili <team@xiligroup.org>\n"
 "Language-Team: xili-dictionary WP plugin and  <team@xiligroup.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,418 +14,44 @@ msgstr ""
 "X-Poedit-Country: fr_FR\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#. [local] (imported from mo) 
-#, php-format
-msgid "AM"
-msgstr " "
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Apr_April_abbreviation"
-msgstr "avr"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "April"
-msgstr "avril"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Aug_August_abbreviation"
-msgstr "août"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "August"
-msgstr "août"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Cancel reply"
-msgstr "Annuler le commentaire"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Categories"
-msgstr "Catégories"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Dec_December_abbreviation"
-msgstr "déc"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "December"
-msgstr "décembre"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "F j, Y"
-msgstr "j F Y"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "F_Friday_initial"
-msgstr "V"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Feb_February_abbreviation"
-msgstr "fév"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "February"
-msgstr "février"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Fri"
-msgstr "ven"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Friday"
-msgstr "Vendredi"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Jan_January_abbreviation"
-msgstr "jan"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "January"
-msgstr "janvier"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Jul_July_abbreviation"
-msgstr "juil"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "July"
-msgstr "juillet"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Jun_June_abbreviation"
-msgstr "juin"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "June"
-msgstr "juin"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Just another multilingual WordPress site"
-msgstr "Démo WordPress multilingue"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Leave a Reply"
-msgstr "Ajouter votre commentaire"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Leave a Reply to %s"
-msgstr "Ajouter un commentaire à %s"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Leave a comment"
-msgstr "Laisser un commentaire"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
-msgstr "Connecté comme <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se déconnecter\">Déconnection ?</a>"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "M_Monday_initial"
-msgstr "L"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Mar_March_abbreviation"
-msgstr "mar"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "March"
-msgstr "mars"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "May"
-msgstr "mai"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "May_May_abbreviation"
-msgstr "mai"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Mon"
-msgstr "lun"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Monday"
-msgstr "Lundi"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Multilingual child theme of Twenty Fifteen by %s"
-msgstr "Thème enfant multilingue de Twenty Fifteen par %s"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "News"
-msgstr "Actualités"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Nov_November_abbreviation"
-msgstr "nov"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "November"
-msgstr "novembre"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Oct_October_abbreviation"
-msgstr "oct"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "October"
-msgstr "octobre"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "PM"
-msgstr " "
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Post Comment"
-msgstr "Envoyer le commentaire"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Recent posts"
-msgstr "Articles récents"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "S_Saturday_initial"
-msgstr "S"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "S_Sunday_initial"
-msgstr "D"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Sat"
-msgstr "sam"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Saturday"
-msgstr "Samedi"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Search"
-msgstr "Recherche"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Sep_September_abbreviation"
-msgstr "sept"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "September"
-msgstr "septembre"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Sun"
-msgstr "dim"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Sunday"
-msgstr "Dimanche"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "T_Thursday_initial"
-msgstr "J"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "T_Tuesday_initial"
-msgstr "Ma"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Thu"
-msgstr "jeu"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Thursday"
-msgstr "Jeudi"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Tue"
-msgstr "mar"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Tuesday"
-msgstr "Mardi"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Unfiled"
-msgstr "Non classé"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "WP 41 test"
-msgstr "WordPress 4.1 en test"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "W_Wednesday_initial"
-msgstr "Me"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Wed"
-msgstr "mer"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "Wednesday"
-msgstr "Mercredi"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
-msgstr "N'utilisez que <abbr title=\"HyperText Markup Language\">HTML</abbr> ces balises et attributs :"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Vous devez être <a href=\"%s\">connecté</a> pour ajouter un commentaire."
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "am"
-msgstr " "
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "latest posts"
-msgstr "Articles les plus récents"
-
-#. [local] (imported from mo) 
-#, php-format
-msgctxt "menu_description fr_fr"
-msgid "for %s speaking people"
-msgstr "pour francophones"
-
-#. [local] (imported from mo) 
-#, php-format
-msgctxt "noun"
-msgid "Comment"
-msgstr "Commentaire"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "number_format_decimal_point"
-msgstr ","
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "number_format_thousands_sep"
-msgstr " "
-
-#. [local] (imported from mo) 
-#, php-format
-msgctxt "placeholder"
-msgid "Search &hellip;"
-msgstr "Chercher&hellip;"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "pm"
-msgstr " "
-
-#. [local] (imported from mo) 
-#, php-format
-msgctxt "text direction"
-msgid "text_direction"
-msgstr "ltr"
-
-#. [local] (imported from mo) 
-#, php-format
-msgid "unfiled posts"
-msgstr "Articles non classés"
-
 #. translators: added in child functions by xili
 
-#: functions.php:86
+#: functions.php:87
 #, php-format
 msgid "Will copy content in the future translated post"
-msgstr ""
+msgstr "Va recopier le contenu de l'original dans le futur contenu à traduire"
 
 #. translators: added in child functions by xili
 
-#: functions.php:93
+#: functions.php:94
 #, php-format
 msgid "Will copy translated parent id (if original has parent and translated parent)!"
-msgstr ""
+msgstr "Va recopier le parent id (si l'original a un parent et que ce parent est traduit)!"
 
 #. translators: added in child functions by xili
 
-#: functions.php:109
+#: functions.php:110
 #, php-format
 msgid "The %1$s child theme requires xili_language version more recent than %2$s installed"
-msgstr ""
+msgstr "Ce thème enfant %1$s requiert xili_language installée dans une version plus récente que %2$s"
 
 #. translators: added in child functions by xili
 
-#: functions.php:118
+#: functions.php:119
 #, php-format
 msgid "The %s child theme requires xili_language_theme_options class installed and activated"
-msgstr ""
+msgstr "Ce thème enfant %s a besoin impérativement de la classe xili_language_theme_options installée et activée"
 
 #. translators: added in child functions by xili
 
-#: functions.php:128
+#: functions.php:129
 #, php-format
 msgid "The %s child theme requires xili-language plugin installed and activated"
-msgstr ""
+msgstr "Ce thème enfant %s requiert l'extension xili-language installée et activée"
 
 #. translators: added in child functions by xili
 
-#: functions.php:203
+#: functions.php:204
 #, php-format
 msgctxt "header image description"
 msgid "2015 by xili"
@@ -433,20 +59,33 @@ msgstr ""
 
 #. translators: added in child functions by xili
 
-#: functions.php:210
+#: functions.php:211
 #, php-format
 msgctxt "header image description"
 msgid "2015.2 by xili"
 msgstr ""
 
+#. translators: added in child functions by xili
+
+#: functions.php:431
+#, php-format
+msgid "Multilingual child theme of Twenty Fifteen by %s"
+msgstr "Thème enfant multilingue de Twenty Fifteen par %s"
+
 #: searchform.php:5  searchform.php:6  searchform.php:13
 #, php-format
 msgctxt "label"
 msgid "Search for:"
-msgstr ""
+msgstr "Rechercher :"
+
+#: searchform.php:6
+#, php-format
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Chercher&hellip;"
 
 #: searchform.php:8  searchform.php:15
 #, php-format
 msgctxt "submit button"
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
