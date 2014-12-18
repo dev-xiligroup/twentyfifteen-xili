@@ -410,6 +410,19 @@ function my_langs_in_search_form_2015 ( $the_form ) {
 	return $form ;
 }
 
+/**
+ *
+ * filter to improve translation of Reply button in comments list
+ * from comment-template.php line #1358
+ */
+add_filter ( 'comment_reply_link_args', 'twentyfifteen_xili_comment_reply_link_args', 10, 3 );
+function twentyfifteen_xili_comment_reply_link_args ( $args, $comment, $post ) {
+	$args['reply_text']    = __( 'Reply', 'twentyfifteen' );
+	$args['reply_to_text']    = __( 'Reply to %s', 'twentyfifteen' );
+	$args['login_text']    = __( 'Log in to Reply', 'twentyfifteen' );
+	return $args;
+}
+
 
 // new filter for vertical nav menu description
 // xl_nav_menu_page_attr_title
