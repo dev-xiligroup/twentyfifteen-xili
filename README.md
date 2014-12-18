@@ -14,11 +14,11 @@ Online demo website is here: http://2015.extend.xiligroup.org
 
 *Prerequisites* :
 
-WordPress 4.1-RC1+ and updated twentyfifteen
+WordPress 4.1 Dinah and updated twentyfifteen
 
 -- a child theme needs his parent theme --
 
-xili-language version 2.15.4 (with new theme-multilingual-classes and custom flags in media library)
+xili-language version 2.16.0 (with new theme-multilingual-classes and custom flags in media library)
 
 xili-language plugin must be activated.
 
@@ -30,4 +30,4 @@ After decompressing .zip from Github, do not forget to erase suffix '-master' to
 
 Before updating don't forgot to keep a backup of the YOUR languages files (.mo)
 
-2014-12-16
+2014-12-18
