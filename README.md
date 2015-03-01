@@ -7,7 +7,7 @@ The child theme '-xili' here is made to incorporate multilingual features et fix
 
 In `functions.php` file, some examples of commented source are shipped to be used in another themes...
 
-Recent versions are compatible with tested WordPress 4.1-RC1.
+Recent versions are compatible with tested WordPress 4.2-alpha.
 
 Online demo website is here: http://2015.extend.xiligroup.org
 
@@ -18,7 +18,7 @@ Online demo website is here: http://2015.extend.xiligroup.org
 1. `xili-language` version 2.16.0 (with new theme-multilingual-classes and custom flags in media library)
 1. `xili-language` plugin must be activated. The plugin is [available here](http://wordpress.org/plugins/xili-language/)
 1. After installation or updating, it is recommanded to refresh permalinks (and empty the browser cache too)
-1. After decompressing .zip from Github, make sure you rename the file without the `-master` suffix, the plugin expects to be in `wp-content/themes/twentyfifteen-xili/`!
+1. After decompressing "master" .zip from Github, only upload the folder twentyfifteen-xili (near the readme.md) to themes folder , the child-theme files expect to be finally in `wp-content/themes/twentyfifteen-xili/`!
 1. Before updating, don’t forget to backup your own `.mo` language files
 
-2014-12-18
+2015-03-01
