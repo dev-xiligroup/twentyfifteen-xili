@@ -435,7 +435,8 @@ function twentyfifteen_xili_comment_reply_link_args ( $args, $comment, $post ) {
 // new in WP 4.1 - will be incorporated in XL 2.17
 add_filter ( 'get_the_archive_description', 'xili_get_the_archive_description' );
 function  xili_get_the_archive_description ( $description ){
-	return '<p>' . translate( trim( strip_tags($description) ), 'twentyfifteen' ) . '</p>';
+	preg_match('/<p>(.*)<\/p>/', $description, $match); // ever return description with <p> with default filter wpautop for display description
+	return '<p>' . translate( $match[1] , 'twentyfifteen' ) . '</p>';
 }
 
 /**
@@ -451,7 +452,7 @@ function  xili_get_the_archive_description ( $description ){
  */
 function xili_twentyfifteen_nav_description( $item_output, $item, $depth, $args ) {
 	if ( 'primary' == $args->theme_location && $item->description ) {
-		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . _x($item->description, 'menu_description', 'twentyfifteen') . '</div>' . $args->link_after . '</a>', $item_output );
+		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . translate_with_gettext_context($item->description, 'menu_description', 'twentyfifteen') . '</div>' . $args->link_after . '</a>', $item_output );
 	}
 
 	return $item_output;
@@ -469,7 +470,7 @@ add_filter( 'walker_nav_menu_start_el', 'xili_twentyfifteen_nav_description', 10
 function twentyfifteen_xl_nav_menu_lang_description ( $description, $language_slug ) {
 	$language = xiliml_get_language( $language_slug );
 	// please note variable language in context - language of the line in languages switcher !
-	$description = sprintf(_x("for %s speaking people", 'menu_description '.$language_slug, 'twentyfifteen') , $language->description );
+	$description = sprintf(translate_with_gettext_context("for %s speaking people", 'menu_description '.$language_slug, 'twentyfifteen') , $language->description );
 	return $description;
 }
 add_filter ('xl_nav_menu_lang_description','twentyfifteen_xl_nav_menu_lang_description', 10, 2 );
