@@ -2,9 +2,9 @@
 // 
 // dev.xiligroup.com - msc - 2014-11-16 - first test with 2015 0.1
 // dev.xiligroup.com - msc - 2014-12-16 - test with 2015 1.0 - WP 4.1-RC1
+// 1.0.1 - msc - 2015-03-11 - add new filter for all menu descriptions
 
-
-define( 'TWENTYFIFTEEN_XILI_VER', '1.0'); // as parent style.css
+define( 'TWENTYFIFTEEN_XILI_VER', '1.0.1'); // as parent style.css
 
 // main initialisation functions and version testing and message
 
@@ -139,8 +139,17 @@ function twentyfifteen_xilidev_setup () {
 	// end errors...
 	add_filter( 'pre_option_link_manager_enabled', '__return_true' ); // comment this line if you don't want links/bookmarks features
 
+	add_action( 'widgets_init', 'twentyfifteen_xili_add_widgets' );
+
+	remove_filter( 'walker_nav_menu_start_el', 'twentyfifteen_nav_description');
+
 }
-add_action( 'after_setup_theme', 'twentyfifteen_xilidev_setup', 11 );
+add_action( 'after_setup_theme', 'twentyfifteen_xilidev_setup', 11 ); // called after parent
+
+function twentyfifteen_xili_add_widgets () {
+	register_widget( 'xili_Widget_Categories' ); // in xili-language-widgets.php since 2.16.3
+}
+
 
 /**
  * This function is an example to customize flags with flags incorporated inside another child theme folder.
@@ -423,6 +432,26 @@ function twentyfifteen_xili_comment_reply_link_args ( $args, $comment, $post ) {
 	return $args;
 }
 
+/**
+ * Display translated descriptions in main navigation.
+ *
+ * @since Twenty Fifteen-xili 1.0.1
+ *
+ * @param string  $item_output The menu item output.
+ * @param WP_Post $item        Menu item object.
+ * @param int     $depth       Depth of the menu.
+ * @param array   $args        wp_nav_menu() arguments.
+ * @return string Menu item with possible description.
+ */
+function xili_twentyfifteen_nav_description( $item_output, $item, $depth, $args ) {
+	if ( 'primary' == $args->theme_location && $item->description ) {
+		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . _x($item->description, 'menu_description', 'twentyfifteen') . '</div>' . $args->link_after . '</a>', $item_output );
+	}
+
+	return $item_output;
+}
+// parent removed in after_setup
+add_filter( 'walker_nav_menu_start_el', 'xili_twentyfifteen_nav_description', 10, 4 );
 
 // new filter for vertical nav menu description
 // xl_nav_menu_page_attr_title
@@ -444,6 +473,5 @@ function twentyfifteen_xili_credits () {
 	printf( __("Multilingual child theme of Twenty Fifteen by %s", 'twentyfifteen' ),"<a href=\"http://dev.xiligroup.com\">dev.xiligroup</a> - " );
 }
 add_action ('twentyfifteen_credits', 'twentyfifteen_xili_credits');
-
 
 ?>
