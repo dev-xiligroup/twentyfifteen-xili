@@ -432,6 +432,12 @@ function twentyfifteen_xili_comment_reply_link_args ( $args, $comment, $post ) {
 	return $args;
 }
 
+// new in WP 4.1 - will be incorporated in XL 2.17
+add_filter ( 'get_the_archive_description', 'xili_get_the_archive_description' );
+function  xili_get_the_archive_description ( $description ){
+	return '<p>' . translate( trim( strip_tags($description) ), 'twentyfifteen' ) . '</p>';
+}
+
 /**
  * Display translated descriptions in main navigation.
  *
