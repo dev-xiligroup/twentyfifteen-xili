@@ -435,6 +435,7 @@ function twentyfifteen_xili_comment_reply_link_args ( $args, $comment, $post ) {
 // new in WP 4.1 - will be incorporated in XL 2.17
 add_filter ( 'get_the_archive_description', 'xili_get_the_archive_description' );
 function  xili_get_the_archive_description ( $description ){
+	if (!$description) return '';
 	preg_match('/<p>(.*)<\/p>/', $description, $match); // ever return description with <p> with default filter wpautop for display description
 	return '<p>' . translate( $match[1] , 'twentyfifteen' ) . '</p>';
 }
