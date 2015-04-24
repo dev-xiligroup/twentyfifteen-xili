@@ -3,8 +3,9 @@
 // dev.xiligroup.com - msc - 2014-11-16 - first test with 2015 0.1
 // dev.xiligroup.com - msc - 2014-12-16 - test with 2015 1.0 - WP 4.1-RC1
 // 1.0.1 - msc - 2015-03-11 - add new filter for all menu descriptions
+// 1.1 - msc - 2015-04-24 - WP 4.2 Powell
 
-define( 'TWENTYFIFTEEN_XILI_VER', '1.0.1'); // as parent style.css
+define( 'TWENTYFIFTEEN_XILI_VER', '1.1'); // as parent style.css
 
 // main initialisation functions and version testing and message
 
@@ -48,6 +49,10 @@ function twentyfifteen_xilidev_setup () {
 			'theme_domain' => $theme_domain,
 			'child_version' => TWENTYFIFTEEN_XILI_VER
 		);
+
+		add_action( 'widgets_init', 'twentyfifteen_xili_add_widgets' );
+
+
 
 		if ( is_admin() ) {
 
@@ -138,8 +143,6 @@ function twentyfifteen_xilidev_setup () {
 
 	// end errors...
 	add_filter( 'pre_option_link_manager_enabled', '__return_true' ); // comment this line if you don't want links/bookmarks features
-
-	add_action( 'widgets_init', 'twentyfifteen_xili_add_widgets' );
 
 	remove_filter( 'walker_nav_menu_start_el', 'twentyfifteen_nav_description');
 
@@ -315,7 +318,7 @@ function twentyfifteen_header_style() {
 				global $xili_language, $xili_language_theme_options ;
 				// check if image exists in current language
 				// 2013-10-10 - Tiago suggestion
-				$curlangslug = ( '' == the_curlang() ) ? strtolower( $xili_language->default_lang ) : the_curlang() ;
+				$curlangslug = ( '' == xili_curlang() ) ? strtolower( $xili_language->default_lang ) : xili_curlang() ;
 
 
 					$headers = get_uploaded_header_images(); // search in uploaded header list
@@ -481,5 +484,6 @@ function twentyfifteen_xili_credits () {
 	printf( __("Multilingual child theme of Twenty Fifteen by %s", 'twentyfifteen' ),"<a href=\"http://dev.xiligroup.com\">dev.xiligroup</a> - " );
 }
 add_action ('twentyfifteen_credits', 'twentyfifteen_xili_credits');
+
 
 ?>
