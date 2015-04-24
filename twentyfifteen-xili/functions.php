@@ -52,7 +52,10 @@ function twentyfifteen_xilidev_setup () {
 
 		add_action( 'widgets_init', 'twentyfifteen_xili_add_widgets' );
 
-
+		// new in WP 4.1 - now in XL 2.17.1
+		if ( !has_filter ( 'get_the_archive_description', array($xili_language, 'get_the_archive_description' ) ) ) {
+			add_filter ( 'get_the_archive_description', 'xili_get_the_archive_description' );
+		}
 
 		if ( is_admin() ) {
 
@@ -435,8 +438,7 @@ function twentyfifteen_xili_comment_reply_link_args ( $args, $comment, $post ) {
 	return $args;
 }
 
-// new in WP 4.1 - will be incorporated in XL 2.17
-add_filter ( 'get_the_archive_description', 'xili_get_the_archive_description' );
+// now inside XL 2.17.1
 function  xili_get_the_archive_description ( $description ){
 	if (!$description) return '';
 	preg_match('/<p>(.*)<\/p>/', $description, $match); // ever return description with <p> with default filter wpautop for display description
