@@ -87,20 +87,20 @@ function twentyfifteen_xilidev_setup () {
 		}
 		// new ways to add parameters in authoring propagation
 		add_theme_support('xiliml-authoring-rules', array (
-			'post_content' => array('default' => '1',
+			'post_content' => array('default' => '',
 				'data' => 'post',
 				'hidden' => '',
 				'name' => 'Post Content',
 				/* translators: added in child functions by xili */
 				'description' => __('Will copy content in the future translated post', 'twentyfifteen')
-		),
-			'post_parent' => array('default' => '1',
+			),
+			'post_parent' => array('default' => '1', // (checked)
 				'data' => 'post',
 				'name' => 'Post Parent',
-				'hidden' => '1',
+				'hidden' => '', // checkbox not visible in dashboard UI
 				/* translators: added in child functions by xili */
 				'description' => __('Will copy translated parent id (if original has parent and translated parent)!', 'twentyfifteen')
-		))
+			))
 		); //
 
 		if ( $class_ok ) {
