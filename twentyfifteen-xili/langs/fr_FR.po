@@ -1,91 +1,123 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: theme = twentyfifteen-xili\n"
-"Report-Msgid-Bugs-To: contact@xiligroup.com\n"
-"POT-Creation-Date: 2014-12-18T14:57:22+00:00\n"
-"PO-Revision-Date: 2014-12-18T14:57:22+00:00\n"
-"Last-Translator: adminxili <team@xiligroup.org>\n"
-"Language-Team: xili-dictionary WP plugin and  <team@xiligroup.org>\n"
+"Report-Msgid-Bugs-To: http://dev.xiligroup.com/\n"
+"POT-Creation-Date: 2015-07-05 15:12:22+00:00\n"
+"PO-Revision-Date: 2015-07-05 17:21+0100\n"
+"Last-Translator: dev.xiligroup <contact@xiligroup.com>\n"
+"Language-Team: xili-dictionary WP plugin and <team@xiligroup.org>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1\n"
-"X-Poedit-Language: fr_FR\n"
-"X-Poedit-Country: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #. translators: added in child functions by xili
+#: functions.php:95
+msgid "Will copy post_format in the future translated posts"
+msgstr "Va recopier le format de l'original pour le futur post à traduire"
 
-#: functions.php:87
-#, php-format
+#. translators: added in child functions by xili
+#: functions.php:102
 msgid "Will copy content in the future translated post"
 msgstr "Va recopier le contenu de l'original dans le futur contenu à traduire"
 
 #. translators: added in child functions by xili
-
-#: functions.php:94
-#, php-format
-msgid "Will copy translated parent id (if original has parent and translated parent)!"
-msgstr "Va recopier le parent id (si l'original a un parent et que ce parent est traduit)!"
-
-#. translators: added in child functions by xili
-
-#: functions.php:110
-#, php-format
-msgid "The %1$s child theme requires xili_language version more recent than %2$s installed"
-msgstr "Ce thème enfant %1$s requiert xili_language installée dans une version plus récente que %2$s"
+#: functions.php:109
+msgid ""
+"Will copy translated parent id (if original has parent and translated "
+"parent)!"
+msgstr ""
+"Va recopier le parent id (si l'original a un parent et que ce parent est "
+"traduit)!"
 
 #. translators: added in child functions by xili
-
-#: functions.php:119
-#, php-format
-msgid "The %s child theme requires xili_language_theme_options class installed and activated"
-msgstr "Ce thème enfant %s a besoin impérativement de la classe xili_language_theme_options installée et activée"
-
-#. translators: added in child functions by xili
-
-#: functions.php:129
-#, php-format
-msgid "The %s child theme requires xili-language plugin installed and activated"
-msgstr "Ce thème enfant %s requiert l'extension xili-language installée et activée"
+#: functions.php:125
+msgid ""
+"The %1$s child theme requires xili_language version more recent than %2$s "
+"installed"
+msgstr ""
+"Ce thème enfant %1$s requiert xili_language installée dans une version plus "
+"récente que %2$s"
 
 #. translators: added in child functions by xili
+#: functions.php:134
+msgid ""
+"The %s child theme requires xili_language_theme_options class installed and "
+"activated"
+msgstr ""
+"Ce thème enfant %s a besoin impérativement de la classe "
+"xili_language_theme_options installée et activée"
 
-#: functions.php:204
-#, php-format
+#. translators: added in child functions by xili
+#: functions.php:144
+msgid ""
+"The %s child theme requires xili-language plugin installed and activated"
+msgstr ""
+"Ce thème enfant %s requiert l'extension xili-language installée et activée"
+
+#. translators: added in child functions by xili
+#: functions.php:233
 msgctxt "header image description"
 msgid "2015 by xili"
-msgstr ""
+msgstr "2015 par xili"
 
 #. translators: added in child functions by xili
-
-#: functions.php:211
-#, php-format
+#: functions.php:240
 msgctxt "header image description"
 msgid "2015.2 by xili"
-msgstr ""
+msgstr "2015.2 par xili"
+
+#: functions.php:449
+msgid "Reply"
+msgstr "Répondre"
+
+#: functions.php:450
+msgid "Reply to %s"
+msgstr "Répondre à %s"
+
+#: functions.php:451
+msgid "Log in to Reply"
+msgstr "Se connecter pour répondre"
 
 #. translators: added in child functions by xili
+#: functions.php:500
+msgid "Multilingual child theme of Twenty Fifteen by %1$s and %2$s"
+msgstr "Thème enfant multilingue Twenty Fifteen par %1$s et %2$s"
 
-#: functions.php:431
-#, php-format
-msgid "Multilingual child theme of Twenty Fifteen by %s"
-msgstr "Thème enfant multilingue de Twenty Fifteen par %s"
+#: header.php:31
+msgid "Skip to content"
+msgstr "Sautez au contenu"
 
-#: searchform.php:5  searchform.php:6  searchform.php:13
-#, php-format
+#: header.php:48
+msgid "Menu and widgets"
+msgstr "Menu et widget"
+
+#: inc/customizer.php:19
+msgid "Other texts section"
+msgstr "Autres textes"
+
+#: inc/customizer.php:25
+msgid "My company"
+msgstr "Ma société"
+
+#: inc/customizer.php:30
+msgid "Your copyright (footer)"
+msgstr "Votre copyright (pied de page)"
+
+#: searchform.php:5 searchform.php:6 searchform.php:13
 msgctxt "label"
 msgid "Search for:"
 msgstr "Rechercher :"
 
 #: searchform.php:6
-#, php-format
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Chercher&hellip;"
 
-#: searchform.php:8  searchform.php:15
-#, php-format
+#: searchform.php:8 searchform.php:15
 msgctxt "submit button"
 msgid "Search"
 msgstr "Recherche"

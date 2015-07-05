@@ -63,4 +63,29 @@ if ( class_exists( 'xili_language' ) && is_xili_adjacent_filterable() ) {
 
 }
 
+if (class_exists('JSON_API_Category')) {
+	add_action('json_api_import_wp_post','my_json_api_import_wp_post',10,2);
+	function my_json_api_import_wp_post ($json_api_post, $wp_post ) {
+		$taxonomy = get_taxonomy (TAXONAME); //error_log ("********** " . serialize($taxonomy) );
+		$taxonomy_key = "taxonomy_".TAXONAME;
+		$taxonomy_class = $taxonomy->hierarchical ? 'JSON_API_Category' : 'JSON_API_Tag';
+
+	      $terms = get_the_terms($wp_post->ID, TAXONAME);
+	      $json_api_post->$taxonomy_key = array();
+	      if (!empty($terms)) {
+	        $taxonomy_terms = array();
+	        foreach ($terms as $term) {
+	          $taxonomy_terms[] = new $taxonomy_class($term);
+	        }
+	        $json_api_post->$taxonomy_key = $taxonomy_terms;
+	      }
+
+	}
+}
+
+
+
+
+
+
 ?>

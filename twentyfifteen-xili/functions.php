@@ -4,8 +4,9 @@
 // dev.xiligroup.com - msc - 2014-12-16 - test with 2015 1.0 - WP 4.1-RC1
 // 1.0.1 - msc - 2015-03-11 - add new filter for all menu descriptions
 // 1.1 - msc - 2015-04-24 - WP 4.2 Powell
+// 1.2 - msc - 2015-07-05 - WP 4.2.2
 
-define( 'TWENTYFIFTEEN_XILI_VER', '1.1'); // as parent style.css
+define( 'TWENTYFIFTEEN_XILI_VER', '1.2'); // as parent style.css
 
 // main initialisation functions and version testing and message
 
@@ -87,6 +88,13 @@ function twentyfifteen_xilidev_setup () {
 		}
 		// new ways to add parameters in authoring propagation
 		add_theme_support('xiliml-authoring-rules', array (
+			'post_format' => array('default' => '1',
+				'data' => 'attribute',
+				'hidden' => '1',
+				'name' => 'Post Format',
+				/* translators: added in child functions by xili */
+				'description' => __('Will copy post_format in the future translated posts', 'twentyfifteen')
+			),
 			'post_content' => array('default' => '',
 				'data' => 'post',
 				'hidden' => '',
@@ -152,10 +160,19 @@ function twentyfifteen_xilidev_setup () {
 }
 add_action( 'after_setup_theme', 'twentyfifteen_xilidev_setup', 11 ); // called after parent
 
+if ( class_exists('xili_language') ) { // if temporary disabled
+	add_action ('after_setup_theme', 'theme_mod_create_array', 11, 1 );
+
+	function theme_mod_create_array () {
+		global $xili_language;
+		if ( method_exists( $xili_language, 'set_theme_mod_to_be_filtered' ) ) // version 2.18.2
+			$xili_language->set_theme_mod_to_be_filtered( 'copyright' ); // used in footer
+	}
+}
+
 function twentyfifteen_xili_add_widgets () {
 	register_widget( 'xili_Widget_Categories' ); // in xili-language-widgets.php since 2.16.3
 }
-
 
 /**
  * This function is an example to customize flags with flags incorporated inside another child theme folder.
@@ -483,9 +500,22 @@ add_filter ('xl_nav_menu_lang_description','twentyfifteen_xl_nav_menu_lang_descr
 
 function twentyfifteen_xili_credits () {
 	/* translators: added in child functions by xili */
-	printf( __("Multilingual child theme of Twenty Fifteen by %s", 'twentyfifteen' ),"<a href=\"http://dev.xiligroup.com\">dev.xiligroup</a> - " );
+	printf( __( 'Multilingual child theme of Twenty Fifteen by %1$s and %2$s', 'twentyfifteen' ),
+		"<a href=\"http://dev.xiligroup.com\">dev.xiligroup</a>",
+		'<span class="site-copyright">' . get_theme_mod('copyright', __('My company','twentyfifteen') ) . '</span>'
+		) ;
 }
 add_action ('twentyfifteen_credits', 'twentyfifteen_xili_credits');
 
+
+// Admin side
+// example with theme_mod_copyright in customizer (filter in xl 2.18.2)
+
+/**
+ * Customizer additions.
+ *
+ * @since
+ */
+require get_stylesheet_directory() . '/inc/customizer.php';
 
 ?>

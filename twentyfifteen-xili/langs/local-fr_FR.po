@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: theme = twentyfifteen-xili\n"
 "Report-Msgid-Bugs-To: contact@xiligroup.com\n"
-"POT-Creation-Date: 2014-12-18T14:57:05+00:00\n"
-"PO-Revision-Date: 2014-12-18T14:57:05+00:00\n"
+"POT-Creation-Date: 2015-07-05T15:08:42+00:00\n"
+"PO-Revision-Date: 2015-07-05T15:08:42+00:00\n"
 "Last-Translator: adminxili <team@xiligroup.org>\n"
 "Language-Team: xili-dictionary WP plugin and  <team@xiligroup.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,55 +14,305 @@ msgstr ""
 "X-Poedit-Country: fr_FR\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#. [local] name from category with slug news
+#. [local] 
+#: comment-template.php:29
 #, php-format
-msgid "News"
-msgstr "Actualités"
+msgid "Anonymous"
+msgstr "Anonyme"
 
-#. [local] desc from category with slug news
+#. [local] 
+#: comment-template.php:779
 #, php-format
-msgid "latest posts in website"
-msgstr ""
+msgid "% Comments"
+msgstr "% commentaires"
 
-#. [local] name from category with slug uncategorized
+#. [local] 
+#: comment-template.php:781
 #, php-format
-msgid "Uncategorized"
-msgstr ""
+msgid "No Comments"
+msgstr "Pas de commentaire"
 
-#. [local] name from category with slug unfiled
+#. [local] 
+#: comment-template.php:783
 #, php-format
-msgid "Unfiled"
-msgstr "Non classé"
+msgid "1 Comment"
+msgstr "Un commentaire"
 
-#. [local] desc from category with slug unfiled
+#. [local] 
+#: comment-template.php:936
 #, php-format
-msgid "unfiled posts"
-msgstr "Articles non classés"
+msgid "Trackback"
+msgstr "Rétrolien"
+
+#. [local] 
+#: comment-template.php:937
+#, php-format
+msgid "Pingback"
+msgstr "Ping"
+
+#. [local] 
+#: comment-template.php:989
+#, php-format
+msgid "Use <code>get_trackback_url()</code> instead if you do not want the value echoed."
+msgstr "Utilisez plutôt <code>get_trackback_url()</code> si vous préférez que la valeur ne soit pas affichée."
+
+#. [local] translators: %s: post title
+
+#: comment-template.php:1282
+#, php-format
+msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Aucun commentaire<span class=\"screen-reader-text\"> sur %s</span>"
+
+#. [local] translators: %s: post title
+
+#: comment-template.php:1287
+#, php-format
+msgid "1 Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Un commentaire <span class=\"screen-reader-text\"> sur %s</span>"
+
+#. [local] translators: 1: Number of comments 2: post title
+
+#: comment-template.php:1292
+#, php-format
+msgid "%1$s Comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "%1$s commentaire <span class=\"screen-reader-text\"> sur %2$s</span>"
+msgstr[1] "%1$s commentaires <span class=\"screen-reader-text\"> sur %2$s</span>"
+
+#. [local] translators: %s: post title
+
+#: comment-template.php:1298
+#, php-format
+msgid "Comments Off<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Commentaires fermés<span class=\"screen-reader-text\"> sur %s</span>"
+
+#. [local] 
+#: comment-template.php:1307
+#, php-format
+msgid "Enter your password to view comments."
+msgstr "Saisissez votre mot de passe pour accéder aux commentaires."
+
+#. [local] 
+#: comment-template.php:1377
+#, php-format
+msgid "Reply"
+msgstr "Répondre"
+
+#. [local] 
+#: comment-template.php:1378
+#, php-format
+msgid "Reply to %s"
+msgstr "Répondre à %s"
+
+#. [local] 
+#: comment-template.php:1379
+#, php-format
+msgid "Log in to Reply"
+msgstr "Connectez-vous pour répondre"
+
+#. [local] 
+#: comment-template.php:1489
+#, php-format
+msgid "Leave a Comment"
+msgstr "Laisser un commentaire"
+
+#. [local] 
+#: comment-template.php:1490
+#, php-format
+msgid "Log in to leave a Comment"
+msgstr "Connectez-vous pour laisser un commentaire"
+
+#. [local] 
+#: comment-template.php:1556
+#, php-format
+msgid "Click here to cancel reply."
+msgstr "Cliquez ici pour annuler la réponse."
+
+#. [local] 
+#: comment-template.php:1873
+#, php-format
+msgid "Pingback:"
+msgstr "Ping&nbsp;:"
+
+#. [local] 
+#: comment-template.php:1873  comment-template.php:1966
+#, php-format
+msgid "Edit"
+msgstr "Modifier"
+
+#. [local] 
+#: comment-template.php:1905
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">dit&nbsp;:</span>"
+
+#. [local] 
+#: comment-template.php:1908  comment-template.php:1970
+#, php-format
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#. [local] translators: 1: date, 2: time
+
+#: comment-template.php:1915
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. [local] 
+#: comment-template.php:1915
+#, php-format
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#. [local] 
+#: comment-template.php:1957
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
+
+#. [local] 
+#: comment-template.php:1963
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
 
 #. [local] bloginfo - blogname
 #, php-format
-msgid "WordPress 4.1 en test"
+msgid "WP42 tests"
 msgstr ""
 
 #. [local] bloginfo - description
 #, php-format
-msgid "A multilingual WordPress"
-msgstr "Démo WordPress multilingue"
+msgid "Just another WordPress site"
+msgstr ""
 
 #. [local] bloginfo - time_format
 #, php-format
-msgid "H:i"
+msgid "g:i a"
 msgstr ""
 
 #. [local] bloginfo - date_format
 #, php-format
 msgid "F j, Y"
-msgstr "j F Y"
+msgstr ""
+
+#. [local] comment_form_labels name
+#, php-format
+msgid "Name"
+msgstr "Nom"
+
+#. [local] comment_form_labels email
+#, php-format
+msgid "Email"
+msgstr "Adresse de contact"
+
+#. [local] comment_form_labels website
+#, php-format
+msgid "Website"
+msgstr "Site web"
+
+#. [local] comment_form_labels comment
+#, php-format
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#. [local] comment_form_labels youmustbe
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez <a href=\"%s\">être connecté(e)</a> pour rédiger un commentaire."
+
+#. [local] comment_form_labels loggedinas
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Connecté en tant que <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se déconnecter de ce compte\">Se déconnecter&nbsp;?</a>"
+
+#. [local] comment_form_labels emailnotpublished
+#, php-format
+msgid "Your email address will not be published."
+msgstr "Votre adresse de messagerie ne sera pas publiée."
+
+#. [local] comment_form_labels requiredmarked
+#, php-format
+msgid "Required fields are marked %s"
+msgstr "Les champs obligatoires sont indiqués avec %s"
 
 #. [local] comment_form_labels youmayuse
 #, php-format
-msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
-msgstr "N'utilisez que <abbr title=\"HyperText Markup Language\">HTML</abbr> ces balises et attributs :"
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Vous pouvez utiliser ces balises et attributs <abbr title=\"HyperText Markup Language\">HTML</abbr>&nbsp;: %s"
+
+#. [local] comment_form_labels leavereply
+#, php-format
+msgid "Leave a Reply"
+msgstr "Laisser un commentaire"
+
+#. [local] comment_form_labels replyto
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#. [local] comment_form_labels cancelreply
+#, php-format
+msgid "Cancel reply"
+msgstr "Annuler la réponse."
+
+#. [local] comment_form_labels postcomment
+#, php-format
+msgid "Post Comment"
+msgstr "Laisser un commentaire"
+
+#. [local] post-template
+#, php-format
+msgid "Protected: %s"
+msgstr "Protégé&nbsp;: %s"
+
+#. [local] post-template
+#, php-format
+msgid "Private: %s"
+msgstr "Privé&nbsp;: %s"
+
+#. [local] post-template
+#, php-format
+msgid "(more&hellip;)"
+msgstr "(suite&hellip;)"
+
+#. [local] post-template
+#, php-format
+msgid "There is no excerpt because this is a protected post."
+msgstr "Il n&rsquo;y pas d&rsquo;extrait, car cet article est protégé."
+
+#. [local] post-template
+#, php-format
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#. [local] post-template
+#, php-format
+msgid "Next page"
+msgstr "Page suivante"
+
+#. [local] post-template
+#, php-format
+msgid "Previous page"
+msgstr "Page précédente"
+
+#. [local] post-template
+#, php-format
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr "Cet article est protégé par un mot de passe. Pour le lire, veuillez saisir votre mot de passe ci-dessous&nbsp;:"
+
+#. [local] post-template
+#, php-format
+msgid "Password:"
+msgstr "Mot de passe&nbsp;:"
+
+#. [local] post-template
+#, php-format
+msgid "Submit"
+msgstr "Envoyer"
 
 #. [local] language with ISO en_US
 #, php-format
@@ -90,19 +340,19 @@ msgstr ""
 #. [local] language with ISO fr_FR
 #, php-format
 msgid "french"
-msgstr "français"
+msgstr ""
 
 #. [local] language with ISO fr_FR ctxt=linktitle
 #, php-format
 msgctxt "linktitle"
 msgid "french"
-msgstr "français"
+msgstr "french"
 
 #. [local] language with ISO fr_FR ctxt=otherposts
 #, php-format
 msgctxt "otherposts"
 msgid "french"
-msgstr "français"
+msgstr ""
 
 #. [local] language with ISO fr_FR ctxt=searchform
 #, php-format
@@ -133,60 +383,40 @@ msgctxt "searchform"
 msgid "German"
 msgstr ""
 
-#. [local] language list title post_selected
-#, php-format
-msgid "Posts selected in %s"
-msgstr "Articles sélectionnés en %s"
-
-#. [local] language list title current_post
-#, php-format
-msgid "Current post in %s"
-msgstr "L'article affiché en %s"
-
-#. [local] language list title latest_posts
-#, php-format
-msgid "Latest posts in %s"
-msgstr "Articles récents en %s"
-
-#. [local] language list title view_all_posts
-#, php-format
-msgid "View all posts in %s"
-msgstr "Voir tous les articles dans %s"
-
 #. [local] wp_locale Sunday
 #, php-format
 msgid "Sunday"
-msgstr "Dimanche"
+msgstr "dimanche"
 
 #. [local] wp_locale Monday
 #, php-format
 msgid "Monday"
-msgstr "Lundi"
+msgstr "lundi"
 
 #. [local] wp_locale Tuesday
 #, php-format
 msgid "Tuesday"
-msgstr "Mardi"
+msgstr "mardi"
 
 #. [local] wp_locale Wednesday
 #, php-format
 msgid "Wednesday"
-msgstr "Mercredi"
+msgstr "mercredi"
 
 #. [local] wp_locale Thursday
 #, php-format
 msgid "Thursday"
-msgstr "Jeudi"
+msgstr "jeudi"
 
 #. [local] wp_locale Friday
 #, php-format
 msgid "Friday"
-msgstr "Vendredi"
+msgstr "vendredi"
 
 #. [local] wp_locale Saturday
 #, php-format
 msgid "Saturday"
-msgstr "Samedi"
+msgstr "samedi"
 
 #. [local] wp_locale S_Sunday_initial
 #, php-format
@@ -406,7 +636,7 @@ msgstr " "
 #. [local] wp_locale number_format_decimal_point
 #, php-format
 msgid "number_format_decimal_point"
-msgstr ","
+msgstr ", "
 
 #. [local] wp_locale text_direction
 #, php-format
@@ -414,251 +644,175 @@ msgctxt "text direction"
 msgid "text_direction"
 msgstr "ltr"
 
-#. [local] (imported from mo) 
+#. [local] language list title post_selected
 #, php-format
-msgid "Categories"
-msgstr "Catégories"
+msgid "Posts selected in %s"
+msgstr ""
 
-#. [local] (imported from mo) 
+#. [local] language list title current_post
 #, php-format
-msgid "Just another multilingual WordPress site"
-msgstr "Démo WordPress multilingue"
+msgid "Current post in %s"
+msgstr ""
 
-#. [local] (imported from mo) 
+#. [local] language list title latest_posts
 #, php-format
-msgid "Leave a comment"
-msgstr "Laisser un commentaire"
+msgid "Latest posts in %s"
+msgstr ""
 
-#. [local] (imported from mo) 
+#. [local] language list title view_all_posts
 #, php-format
-msgid "Recent posts"
-msgstr "Articles récents"
+msgid "View all posts in %s"
+msgstr ""
 
-#. [local] (imported from mo) 
+#. [local] get_the_archive_title
 #, php-format
-msgid "WP 41 test"
-msgstr "WordPress 4.1 en test"
+msgid "Category: %s"
+msgstr "Catégorie : %s"
 
-#. [local] (imported from mo) 
+#. [local] get_the_archive_title
 #, php-format
-msgid "latest posts"
-msgstr "Articles les plus récents"
+msgid "Tag: %s"
+msgstr "Étiquette : %s"
 
-#. [local] (imported from mo) 
+#. [local] get_the_archive_title
 #, php-format
-msgctxt "menu_description fr_fr"
-msgid "for %s speaking people"
-msgstr "pour francophones"
+msgid "Author: %s"
+msgstr "Auteur : %s"
 
-#. [local] comment_form_labels name
+#. [local] get_the_archive_title
 #, php-format
-msgid "Name"
-msgstr "Nom"
+msgid "Year: %s"
+msgstr "Année : %s"
 
-#. [local] comment_form_labels email
+#. [local] get_the_archive_title
 #, php-format
-msgid "Email"
-msgstr "Courriel"
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
 
-#. [local] comment_form_labels website
+#. [local] get_the_archive_title
 #, php-format
-msgid "Website"
-msgstr "Site internet"
+msgid "Month: %s"
+msgstr "Mois : %s"
 
-#. [local] comment_form_labels comment
+#. [local] get_the_archive_title
 #, php-format
-msgctxt "noun"
-msgid "Comment"
-msgstr "Commentaire"
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
 
-#. [local] comment_form_labels youmustbe
+#. [local] get_the_archive_title
 #, php-format
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Vous devez être <a href=\"%s\">connecté</a> pour ajouter un commentaire."
+msgid "Day: %s"
+msgstr "Jour : %s"
 
-#. [local] comment_form_labels loggedinas
+#. [local] get_the_archive_title
 #, php-format
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
-msgstr "Connecté comme <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se déconnecter\">Déconnection ?</a>"
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
 
-#. [local] comment_form_labels emailnotpublished
+#. [local] get_the_archive_title
 #, php-format
-msgid "Your email address will not be published."
-msgstr "Votre adresse courriel ne sera pas publiée."
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "En passant"
 
-#. [local] comment_form_labels youmayuse
+#. [local] get_the_archive_title
 #, php-format
-msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
-msgstr "Vous pouvez utiliser ces balises <abbr title=\"HyperText Markup Language\">HTML</abbr> et attributs : %s"
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galeries"
 
-#. [local] comment_form_labels leavereply
+#. [local] get_the_archive_title
 #, php-format
-msgid "Leave a Reply"
-msgstr "Ajouter votre commentaire"
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Images"
 
-#. [local] comment_form_labels replyto
+#. [local] get_the_archive_title
 #, php-format
-msgid "Leave a Reply to %s"
-msgstr "Ajouter un commentaire à %s"
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Vidéos"
 
-#. [local] comment_form_labels cancelreply
+#. [local] get_the_archive_title
 #, php-format
-msgid "Cancel reply"
-msgstr "Annuler le commentaire"
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citations"
 
-#. [local] comment_form_labels postcomment
+#. [local] get_the_archive_title
 #, php-format
-msgid "Post Comment"
-msgstr "Envoyer le commentaire"
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Liens"
+
+#. [local] get_the_archive_title
+#, php-format
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "États"
+
+#. [local] get_the_archive_title
+#, php-format
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#. [local] get_the_archive_title
+#, php-format
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Discussions"
+
+#. [local] get_the_archive_title
+#, php-format
+msgid "Archives: %s"
+msgstr "Archives : %s"
+
+#. [local] get_the_archive_title
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s : %2$s"
+
+#. [local] theme_mod_zerif_aboutus_subtitle
+#, php-format
+msgid "important details about your business."
+msgstr ""
+
+#. [local] theme_mod_zerif_aboutus_biglefttitle
+#, php-format
+msgid "responsive and mobile-friendly."
+msgstr ""
+
+#. [local] theme_mod_zerif_aboutus_text
+#, php-format
+msgid "Lorem test text sit amet, consectetur adipiscing elit. Nulla nec massa enim. Aliquam viverra at est ullamcorper sollicitudin. Proin a leo sit amet nunc malesuada imperdiet pharetra ut eros. <br /><br />Mauris vel nunc at ipsum fermentum pellentesque quis ut massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas non adipiscing massa. Sed ut fringilla sapien. Cras sollicitudin, lectus sed tincidunt cursus, magna lectus vehicula augue, a lobortis dui orci et est."
+msgstr ""
+
+#. [local] theme_mod_zerif_ourteam_title
+#, php-format
+msgid "Your top team"
+msgstr "Votre équipe au sommet de son art"
+
+#. [local] theme_mod_zerif_ourteam_subtitle
+#, php-format
+msgid "Subtitle of our top team"
+msgstr "Tout est dans le sous-titre de votre équipe au sommet"
+
+#. [local] shortcode_linkedpost
+#, php-format
+msgctxt "linktitle"
+msgid "A similar post in %s"
+msgstr "Article semblable en %s"
 
 #. [local] 
-#: comment-template.php:29
 #, php-format
-msgid "Anonymous"
-msgstr "Anonyme"
-
-#. [local] 
-#: comment-template.php:779  comment-template.php:1281
-#, php-format
-msgid "% Comments"
-msgstr "% Commentaires"
-
-#. [local] 
-#: comment-template.php:781  comment-template.php:1279
-#, php-format
-msgid "No Comments"
-msgstr "Aucun commentaire"
-
-#. [local] 
-#: comment-template.php:783  comment-template.php:1280
-#, php-format
-msgid "1 Comment"
-msgstr "1 commentaire"
-
-#. [local] 
-#: comment-template.php:936
-#, php-format
-msgid "Trackback"
+msgid "essai post pull"
 msgstr ""
 
 #. [local] 
-#: comment-template.php:937
 #, php-format
-msgid "Pingback"
-msgstr ""
-
-#. [local] 
-#: comment-template.php:989
-#, php-format
-msgid "Use <code>get_trackback_url()</code> instead if you do not want the value echoed."
-msgstr ""
-
-#. [local] 
-#: comment-template.php:1282
-#, php-format
-msgid "Comments Off"
-msgstr "Commentaires clos"
-
-#. [local] 
-#: comment-template.php:1292
-#, php-format
-msgid "Enter your password to view comments."
-msgstr "Saisir le mot de passe pour voir les commentaires."
-
-#. [local] 
-#: comment-template.php:1327
-#, php-format
-msgid "Comment on %s"
-msgstr "Commentaire sur %s"
-
-#. [local] 
-#: comment-template.php:1363
-#, php-format
-msgid "Reply"
-msgstr "Répondre"
-
-#. [local] 
-#: comment-template.php:1364
-#, php-format
-msgid "Reply to %s"
-msgstr "Répondre à %s"
-
-#. [local] 
-#: comment-template.php:1365
-#, php-format
-msgid "Log in to Reply"
-msgstr "Se connecter pour répondre"
-
-#. [local] 
-#: comment-template.php:1475
-#, php-format
-msgid "Leave a Comment"
-msgstr "Saisir un commentaire"
-
-#. [local] 
-#: comment-template.php:1476
-#, php-format
-msgid "Log in to leave a Comment"
-msgstr "Se connecter pour ajouter un commentaire"
-
-#. [local] 
-#: comment-template.php:1542
-#, php-format
-msgid "Click here to cancel reply."
-msgstr "Cliquer ici pour annuler la réponse."
-
-#. [local] 
-#: comment-template.php:1859
-#, php-format
-msgid "Pingback:"
-msgstr "Pingback :"
-
-#. [local] 
-#: comment-template.php:1859  comment-template.php:1952
-#, php-format
-msgid "Edit"
-msgstr ""
-
-#. [local] 
-#: comment-template.php:1891
-#, php-format
-msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
-msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">dit :</span>"
-
-#. [local] 
-#: comment-template.php:1894  comment-template.php:1956
-#, php-format
-msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération."
-
-#. [local] translators: 1: date, 2: time
-
-#: comment-template.php:1901
-#, php-format
-msgid "%1$s at %2$s"
-msgstr ""
-
-#. [local] 
-#: comment-template.php:1901
-#, php-format
-msgid "(Edit)"
-msgstr ""
-
-#. [local] 
-#: comment-template.php:1943
-#, php-format
-msgid "%s <span class=\"says\">says:</span>"
-msgstr "%s <span class=\"says\">dit :</span>"
-
-#. [local] 
-#: comment-template.php:1949
-#, php-format
-msgctxt "1: date, 2: time"
-msgid "%1$s at %2$s"
-msgstr ""
-
-#. [local] 
-#: comment-template.php:2190
-#, php-format
-msgid "Required fields are marked %s"
-msgstr "Les champs requis sont signalés par %s"
+msgid "My company who is the best"
+msgstr "ma compagnie qui est la meilleure"
