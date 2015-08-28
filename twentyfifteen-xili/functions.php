@@ -5,8 +5,10 @@
 // 1.0.1 - msc - 2015-03-11 - add new filter for all menu descriptions
 // 1.1 - msc - 2015-04-24 - WP 4.2 Powell
 // 1.2 - msc - 2015-07-05 - WP 4.2.2
+// 1.3 - msc - 2015-07-05 - WP 4.3 Billie
 
-define( 'TWENTYFIFTEEN_XILI_VER', '1.2'); // as parent style.css
+
+define( 'TWENTYFIFTEEN_XILI_VER', '1.3'); // as parent style.css
 
 // main initialisation functions and version testing and message
 
@@ -14,7 +16,7 @@ function twentyfifteen_xilidev_setup () {
 
 	$theme_domain = 'twentyfifteen';
 
-	$minimum_xl_version = '2.15.3'; // >
+	$minimum_xl_version = '2.19.3'; // >
 
 	$xl_required_version = false;
 

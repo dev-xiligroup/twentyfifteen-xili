@@ -19,6 +19,10 @@ Online demo website is here: http://2015.extend.xiligroup.org
 1. After decompressing "master" .zip from Github, only upload the folder twentyfifteen-xili (near the readme.md) to themes folder , the child-theme files expect to be finally in `wp-content/themes/twentyfifteen-xili/`!
 1. Before updating, don’t forget to backup your own `.mo` language files
 
+## New in 1.3.0 (2015-08-28)
+1. ready for twentyfifteen 1.3 and WP 4.3 Billie
+1. Note that nav menu description translation need menu_description context - see line 480 of functions.php
+
 ## New in 1.2.0 (2015-07-05)
 1. ready for twentyfifteen 1.2 and
 1. uses theme customizer text value and new theme_mod filter for xili-language 2.18.2+
@@ -29,4 +33,4 @@ Online demo website is here: http://2015.extend.xiligroup.org
 ## New in 1.0.1 (2015-03-11)
 1. new filter to translate description of categories in vertical nav menu (context menu_description used by a _x() function) - when you change value in category, nav menu must be rebuilt !
 
-2015-07-05
+2015-08-28
