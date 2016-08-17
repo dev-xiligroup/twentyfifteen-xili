@@ -6,9 +6,10 @@
 // 1.1 - msc - 2015-04-24 - WP 4.2 Powell
 // 1.2 - msc - 2015-07-05 - WP 4.2.2
 // 1.3 - msc - 2015-07-05 - WP 4.3 Billie
+// 1.6 - msc - 2016-08-17 - WP 4.6 Pepper
 
 
-define( 'TWENTYFIFTEEN_XILI_VER', '1.3'); // as parent style.css
+define( 'TWENTYFIFTEEN_XILI_VER', '1.6'); // as parent style.css
 
 // main initialisation functions and version testing and message
 
@@ -16,7 +17,7 @@ function twentyfifteen_xilidev_setup () {
 
 	$theme_domain = 'twentyfifteen';
 
-	$minimum_xl_version = '2.19.3'; // >
+	$minimum_xl_version = '2.21'; // >
 
 	$xl_required_version = false;
 
